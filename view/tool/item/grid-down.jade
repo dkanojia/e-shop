@@ -1,0 +1,244 @@
+div(id='{$_name}' class="{$class} row" style="{$style}")
+  {rows}{row}
+  .xepan-commerce-item(data-xsnb-item-id='{$id}', onclick='javascript:void(0);')
+    .col-md-8.timer-grid-left.animated.wow.slideInLeft(style='visibility: hidden; animation-delay: 0.5s; animation-name: none;', data-wow-delay='.5s')
+      {name_wrapper}
+      h3
+        a.xepan-commerce-item-name(href='{item_detail_page_url_via_name}{/}') {$name}
+      {/}
+      .rating
+        .rating-left
+          img.img-responsive(src='images/2.png', alt=' ')
+        .rating-left
+          img.img-responsive(src='images/2.png', alt=' ')
+        .rating-left
+          img.img-responsive(src='images/2.png', alt=' ')
+        .rating-left
+          img.img-responsive(src='images/2.png', alt=' ')
+        .rating-left
+          img.img-responsive(src='images/1.png', alt=' ')
+        .clearfix  
+      .new-collections-grid1-left.simpleCart_shelfItem.timer-grid-left-price
+        p
+          {original_price_wrapper}
+          i {$original_price}
+          {/}
+          {sale_price_wrapper}
+          span.item_price {$sale_price}
+          {/}
+        {description_wrapper}
+        h4
+          {$description}
+        {/}
+        p
+          {addtocart_wrapper}
+          .xepan-commerce-item-addtocart(data-xsnbitemid="{$id}" data-name="{$name}"){$Addtocart}
+          {/} 
+          {personalizedbtn_wrapper}
+          a.item_add.timer_add(data-xsnbitemid="{$id}" class="commerce-personalize-button-wrapper") {$personalizedbtn}
+          {/}
+        {specification_wrapper}
+        .new-collections-grid1-left.simpleCart_shelfItem
+          {specification}
+          {rows}{row}
+          p
+            small
+              i {$name}
+              span.item_price  {$value}
+          {/}{/}
+          {/specification}
+        {/}
+      #counter.countdownHolder
+        .countDays
+          span.position
+            span.digit.static(style='top: 0px; opacity: 1;') 1
+          span.position
+            span.digit.static(style='top: 0px; opacity: 1;') 0
+          span.boxName
+            span.Days Days
+        span.points :
+        span.countDiv.countDiv0
+        .countHours
+          span.position
+            span.digit.static(style='top: 0px; opacity: 1;') 2
+          span.position
+            span.digit.static(style='top: 0px; opacity: 1;') 3
+          span.boxName
+            span.Hours Hours
+        span.points :
+        span.countDiv.countDiv1
+        .countMinutes
+          span.position
+            span.digit.static(style='top: 0px; opacity: 1;') 5
+          span.position
+            span.digit.static(style='top: 0px; opacity: 1;') 9
+          span.boxName
+            span.Minutes Minutes
+        span.points :
+        span.countDiv.countDiv2
+        .countSeconds
+          span.position
+            span.digit.static(style='top: 0px; opacity: 1;') 0
+          span.position
+            span.digit(style='top: 0px; opacity: 0;') 1
+            span.digit.static(style='top: 0px; opacity: 1;') 1
+          span.boxName
+            span.Seconds Seconds
+        .countDays
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Days Days
+        span.points :
+        span.countDiv.countDiv0
+        .countHours
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Hours Hours
+        span.points :
+        span.countDiv.countDiv1
+        .countMinutes
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Minutes Minutes
+        span.points :
+        span.countDiv.countDiv2
+        .countSeconds
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Seconds Seconds
+        .countDays
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Days Days
+        span.points :
+        span.countDiv.countDiv0
+        .countHours
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Hours Hours
+        span.points :
+        span.countDiv.countDiv1
+        .countMinutes
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Minutes Minutes
+        span.points :
+        span.countDiv.countDiv2
+        .countSeconds
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Seconds Seconds
+        .countDays
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Days Days
+        span.points :
+        span.countDiv.countDiv0
+        .countHours
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Hours Hours
+        span.points :
+        span.countDiv.countDiv1
+        .countMinutes
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Minutes Minutes
+        span.points :
+        span.countDiv.countDiv2
+        .countSeconds
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Seconds Seconds
+        .countDays
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Days Days
+        span.points :
+        span.countDiv.countDiv0
+        .countHours
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Hours Hours
+        span.points :
+        span.countDiv.countDiv1
+        .countMinutes
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Minutes Minutes
+        span.points :
+        span.countDiv.countDiv2
+        .countSeconds
+          span.position
+            span.digit.static 0
+          span.position
+            span.digit.static 0
+          span.boxName
+            span.Seconds Seconds
+      script(src='js/jquery.countdown.js')
+      script(src='js/script.js')
+    .col-md-4.timer-grid-right.animated.wow.slideInRight(style='visibility: hidden; animation-delay: 0.5s; animation-name: none;', data-wow-delay='.5s')
+      .timer-grid-right1
+        {image_wrapper}
+        .xepan-commerce-image-wrapper
+          a.product-image.xepan-commerce-image-anchor(href='{$item_detail_page_url_via_image}')
+            img.img-responsive.xepan-commerce-item-img(src='{first_image}abc{/}')
+          .timer-grid-right-pos
+            h4 Special Offer
+        {/image_wrapper}
+  {/}{/}
+  {not_found}
+  div.full-width.alert.alert-warning(role="alert")
+    strong.glyphicon.glyphicon-warning-sign &nbsp;Warning!
+      span &nbsp;{$not_found_message}
+  {/}
+  {paginator_wrapper}
+  .new-collections-grid1-left.simpleCart_shelfItem
+    .xepan-commerce-item-paginator(style='float:none; clear:both')
+      {$Paginator}
+  {/}

@@ -1,14 +1,14 @@
 div(id='{$_name}' class="{$class} row" style="{$style}")
   {rows}{row}
   .xepan-commerce-item(data-xsnb-item-id='{$id}', onclick='javascript:void(0);')
-    .new-collections-grid1.animated.wow.slideInUp(data-wow-delay='.5s')
+    .new-collections-grid1.new-collections-grid1-image-width.animated.wow.slideInUp.animated.animated(style='visibility: visible; animation-delay: 0.5s; animation-name: slideInUp;', data-wow-delay='.5s')
       {image_wrapper}
       .new-collections-grid1-image.xepan-commerce-image-wrapper
         a.product-image.xepan-commerce-image-anchor(href='{$item_detail_page_url_via_image}')
           img.img-responsive.xepan-commerce-item-img(src='{first_image}abc{/}')
-        .new-collections-grid1-image-pos
+        .new-collections-grid1-image-pos.new-collections-grid1-image-pos1
           a(href='{item_detail_page_url_via_name}{/}') Quick View
-        .new-collections-grid1-right
+        .new-collections-grid1-right.new-collections-grid1-right-rate
           .rating
             .rating-left
               img.img-responsive(src='images/2.png', alt=' ')
@@ -17,14 +17,16 @@ div(id='{$_name}' class="{$class} row" style="{$style}")
             .rating-left
               img.img-responsive(src='images/2.png', alt=' ')
             .rating-left
-              img.img-responsive(src='images/1.png', alt=' ')
+              img.img-responsive(src='images/2.png', alt=' ')
             .rating-left
               img.img-responsive(src='images/1.png', alt=' ')
-            .clearfix 
+            .clearfix  
+        .new-one
+          p New
       {/image_wrapper}
-      {name_wrapper} 
+      {name_wrapper}
       h4
-        a.xepan-commerce-item-name(href='{item_detail_page_url_via_name}{/}') {$name}
+        a(href='{item_detail_page_url_via_name}{/}') {$name}
       {/}
       {description_wrapper}
       p {$description}

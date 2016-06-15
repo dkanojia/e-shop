@@ -8,15 +8,15 @@
         |  - Items
         span.caret
       {lister_wrapper}
-      ul.dropdown-menu.dropdown-cart.xepan-cart(role='menu',style='width:400px; background:white') 
+      ul.dropdown-menu.dropdown-menu-right.dropdown-menu-right.dropdown-cart.xepan-cart(role='menu',style='width:400px; background:white') 
         .scroll-item(margin="10px 20px")
           {lister}
-          .row
+          .row(style="margin-left:100px; margin-bottom: 10px;")
             .col-md-6 Item
             .col-md-5 Amount
             .col-md-1
           {rows}{row}
-          .row.xepan-commerce-tool-cart-item-row(id='item-{$id}' style="margin:0;margin-bottom:5px;")
+          .row.item.xepan-commerce-tool-cart-item-row(id='item-{$id}' style="margin:0;margin-bottom:5px;")
             {image_wrapper}
             .col-md-2
               img(alt='{image}{/}' src='{$image_url}' onerror="this.src='vendor/xepan/commerce/templates/view/tool/cart/images/not-found.png'" width="100%;")
@@ -41,11 +41,11 @@
         {/}
         {footer}
         li.divider
-        li
+        li(style="font-size:1.5em; padding-left:5px; padding-right:10px;")
           {sum_amount_excluding_tax_wrapper}
           .row
             .col-lg-6 Sum Amount
-            .col-lg-6.text-right  {sum_amount_excluding_tax}{/}
+            .col-lg-6.text-right{sum_amount_excluding_tax}0.00{/}
           {/}
           {discount_voucher_wrapper}
           .row

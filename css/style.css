@@ -278,6 +278,10 @@ ul.multi-column-dropdown h6 {
 .sb-search.sb-search-open .sb-search-submit,.no-js .sb-search .sb-search-submit {
 	z-index: 90;
 }
+.scroll-item {
+  overflow-y: auto;
+  max-height: 225px;
+}
 /*-- search-ends --*/
 .header-right {
     float: right;
@@ -3845,6 +3849,19 @@ td.invert-image a img {
 		text-align: left;
 	}
 }
+
+.xshop-item-custom-field-name.xshop-item-addtocart .btn{
+	border-radius: 0px;
+}
+.xshop-item-custom-field-name.xshop-item-addtocart .btn-block{
+	width: auto;
+	text-align: center;
+}
+.xshop-item-custom-field-name.xshop-item-addtocart .btn-primary{
+	background-color: transparent;
+	display: block;
+}
+
 .new-collections-grid1-left .btn{
 	border-radius: 0px;
 }

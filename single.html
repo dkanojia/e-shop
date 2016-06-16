@@ -4,26 +4,25 @@ Author URL: http://w3layouts.com
 <!-- breadcrumbs -->
 	<div class="breadcrumbs">
 		<div class="container">
-			<ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
-				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+			<ol style="visibility: visible; animation-delay: 0.5s; animation-name: slideInLeft;" class="breadcrumb breadcrumb1 animated wow slideInLeft animated" data-wow-delay=".5s">
+<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
 				<li class="active">Single Page</li>
 			</ol>
-		</div>
+</div>
 	</div>
 <!-- //breadcrumbs -->
 <!-- single -->
 	<div class="single">
 		<div class="container">
 			<div class="col-md-4 products-left">
-				<div class="filter-price animated wow slideInUp" data-wow-delay=".5s">
+				<div style="visibility: visible; animation-delay: 0.5s; animation-name: slideInUp;" class="filter-price animated wow slideInUp animated" data-wow-delay=".5s">
 					<h3>Filter By Price</h3>
 					<ul class="dropdown-menu1">
-							<li><a href="">								               
-							<div id="slider-range"></div>							
-							<input type="text" id="amount" style="border: 0" />
-							</a></li>	
+<li><a href="">								               
+							<div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" id="slider-range"><div style="left: 10%; width: 50%;" class="ui-slider-range ui-widget-header"></div><a style="left: 10%;" class="ui-slider-handle ui-state-default ui-corner-all" href="#"></a><a style="left: 60%;" class="ui-slider-handle ui-state-default ui-corner-all" href="#"></a></div>							
+							<input id="amount" style="border: 0" type="text"></a></li>	
 					</ul>
-						<script type='text/javascript'>//<![CDATA[ 
+<script type="text/javascript">//<![CDATA[ 
 						$(window).load(function(){
 						 $( "#slider-range" ).slider({
 								range: true,
@@ -37,46 +36,64 @@ Author URL: http://w3layouts.com
 
 
 						});//]]>
-						</script>
-						<script type="text/javascript" src="js/jquery-ui.min.js"></script>
-					 <!---->
-				</div>
-				<div class="categories animated wow slideInUp" data-wow-delay=".5s">
+						</script><script type="text/javascript" src="js/jquery-ui.min.js"></script><!---->
+</div>
+				<div style="visibility: visible; animation-delay: 0.5s; animation-name: slideInUp;" class="categories animated wow slideInUp animated" data-wow-delay=".5s">
 					<h3>Categories</h3>
 					<ul class="cate">
-						<li><a href="products.html">Best Selling</a> <span>(15)</span></li>
-						<li><a href="products.html">Home Collections</a> <span>(16)</span></li>
+<li>
+<a href="products.html">Best Selling</a> <span>(15)</span>
+</li>
+						<li>
+<a href="products.html">Home Collections</a> <span>(16)</span>
+</li>
 							<ul>
-								<li><a href="products.html">Cookware</a> <span>(2)</span></li>
-								<li><a href="products.html">New Arrivals</a> <span>(0)</span></li>
-								<li><a href="products.html">Home Decore</a> <span>(1)</span></li>
+<li>
+<a href="products.html">Cookware</a> <span>(2)</span>
+</li>
+								<li>
+<a href="products.html">New Arrivals</a> <span>(0)</span>
+</li>
+								<li>
+<a href="products.html">Home Decore</a> <span>(1)</span>
+</li>
 							</ul>
-						<li><a href="products.html">Decorations</a> <span>(15)</span></li>
+<li>
+<a href="products.html">Decorations</a> <span>(15)</span>
+</li>
 							<ul>
-								<li><a href="products.html">Wall Clock</a> <span>(2)</span></li>
-								<li><a href="products.html">New Arrivals</a> <span>(0)</span></li>
-								<li><a href="products.html">Lighting</a> <span>(1)</span></li>
-								<li><a href="products.html">Top Brands</a> <span>(0)</span></li>
+<li>
+<a href="products.html">Wall Clock</a> <span>(2)</span>
+</li>
+								<li>
+<a href="products.html">New Arrivals</a> <span>(0)</span>
+</li>
+								<li>
+<a href="products.html">Lighting</a> <span>(1)</span>
+</li>
+								<li>
+<a href="products.html">Top Brands</a> <span>(0)</span>
+</li>
 							</ul>
-					</ul>
-				</div>
+</ul>
+</div>
 				<!-- <div id="f935d520-b3e5-4435-f51a-ae2b0c11ec20" class="xepan-component xepan-serverside-component" xepan-component="xepan/commerce/Tool_Category"></div> -->
-				<div class="men-position animated wow slideInUp" data-wow-delay=".5s">
-					<a href="single.html"><img src="images/29.jpg" alt=" " class="img-responsive" /></a>
+				<div style="visibility: visible; animation-delay: 0.5s; animation-name: slideInUp;" class="men-position animated wow slideInUp animated" data-wow-delay=".5s">
+					<a href="single.html"><img src="images/29.jpg" alt=" " class="img-responsive"></a>
 					<div class="men-position-pos">
 						<h4>Summer collection</h4>
-						<h5><span>55%</span> Flat Discount</h5>
+						<h5>
+<span>55%</span> Flat Discount</h5>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-8 single-right">
 				<div id="01ef8007-de66-4291-ba2a-26ad67998470" class="xepan-component xepan-serverside-component" xepan-component="xepan/commerce/Tool_ItemImage"></div>
-				<div id="5553ef6e-cb07-4ab4-b7f5-c550d055798d" class="xepan-component xepan-serverside-component" xepan-component="xepan/commerce/Tool_Item_Detail"></div>
+				<div custom_template="tab-new" id="5553ef6e-cb07-4ab4-b7f5-c550d055798d" class="xepan-component xepan-serverside-component" xepan-component="xepan/commerce/Tool_Item_Detail"></div>
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 	</div>
 <!-- //single -->
 <!-- zooming-effect -->
-	<script src="js/imagezoom.js"></script>
-<!-- //zooming-effect -->
+	<script style="" src="js/imagezoom.js"></script><!-- //zooming-effect -->
